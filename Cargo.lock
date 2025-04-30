@@ -2579,7 +2579,6 @@ checksum = "20f34339676cdcab560c9a82300c4c2581f68b9369aedf0fae86f2ff9565ff3e"
 name = "teloxide"
 version = "0.17.0"
 dependencies = [
- "aquamarine",
  "axum",
  "bincode",
  "bytes",
@@ -2616,6 +2615,7 @@ name = "teloxide-core"
 version = "0.13.0"
 dependencies = [
  "aho-corasick",
+ "aquamarine",
  "bitflags",
  "bytes",
  "chrono",

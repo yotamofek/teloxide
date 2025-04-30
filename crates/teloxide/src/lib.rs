@@ -136,15 +136,12 @@
 #[cfg(feature = "ctrlc_handler")]
 pub use repls::{repl, repl_with_listener};
 
-pub mod backoff;
 pub mod dispatching;
 pub mod error_handlers;
 pub mod prelude;
 #[cfg(feature = "ctrlc_handler")]
 pub mod repls;
-pub mod stop;
 pub mod sugar;
-pub mod update_listeners;
 pub mod utils;
 
 #[doc(inline)]

@@ -13,7 +13,7 @@ use std::{
 use futures::{ready, stream::Stream};
 use tokio::time::{sleep, Sleep};
 
-use teloxide_core::errors::AsResponseParameters;
+use crate::errors::AsResponseParameters;
 
 use crate::{
     backoff::{exponential_backoff_strategy, BackoffStrategy},

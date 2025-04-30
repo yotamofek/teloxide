@@ -116,12 +116,15 @@ pub use self::{
 };
 
 pub mod adaptors;
+pub mod backoff;
 pub mod errors;
 pub mod net;
 pub mod payloads;
 pub mod prelude;
 pub mod requests;
+pub mod stop;
 pub mod types;
+pub mod update_listeners;
 
 // reexported
 mod bot;
